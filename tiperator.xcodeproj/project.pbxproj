@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F612AD411B8D6EA8002CF771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612AD401B8D6EA8002CF771 /* AppDelegate.swift */; };
+		F612AD431B8D6EA8002CF771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612AD421B8D6EA8002CF771 /* ViewController.swift */; };
+		F612AD461B8D6EA8002CF771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F612AD441B8D6EA8002CF771 /* Main.storyboard */; };
+		F612AD481B8D6EA8002CF771 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F612AD471B8D6EA8002CF771 /* Images.xcassets */; };
+		F612AD4B1B8D6EA8002CF771 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F612AD491B8D6EA8002CF771 /* LaunchScreen.xib */; };
+		F612AD571B8D6EA8002CF771 /* tiperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612AD561B8D6EA8002CF771 /* tiperatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F612AD511B8D6EA8002CF771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F612AD331B8D6EA7002CF771 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F612AD3A1B8D6EA7002CF771;
+			remoteInfo = tiperator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F612AD3B1B8D6EA8002CF771 /* tiperator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiperator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F612AD3F1B8D6EA8002CF771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F612AD401B8D6EA8002CF771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F612AD421B8D6EA8002CF771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F612AD451B8D6EA8002CF771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F612AD471B8D6EA8002CF771 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F612AD4A1B8D6EA8002CF771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F612AD501B8D6EA8002CF771 /* tiperatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiperatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F612AD551B8D6EA8002CF771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F612AD561B8D6EA8002CF771 /* tiperatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiperatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F612AD381B8D6EA7002CF771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F612AD4D1B8D6EA8002CF771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F612AD321B8D6EA7002CF771 = {
+			isa = PBXGroup;
+			children = (
+				F612AD3D1B8D6EA8002CF771 /* tiperator */,
+				F612AD531B8D6EA8002CF771 /* tiperatorTests */,
+				F612AD3C1B8D6EA8002CF771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F612AD3C1B8D6EA8002CF771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F612AD3B1B8D6EA8002CF771 /* tiperator.app */,
+				F612AD501B8D6EA8002CF771 /* tiperatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F612AD3D1B8D6EA8002CF771 /* tiperator */ = {
+			isa = PBXGroup;
+			children = (
+				F612AD401B8D6EA8002CF771 /* AppDelegate.swift */,
+				F612AD421B8D6EA8002CF771 /* ViewController.swift */,
+				F612AD441B8D6EA8002CF771 /* Main.storyboard */,
+				F612AD471B8D6EA8002CF771 /* Images.xcassets */,
+				F612AD491B8D6EA8002CF771 /* LaunchScreen.xib */,
+				F612AD3E1B8D6EA8002CF771 /* Supporting Files */,
+			);
+			path = tiperator;
+			sourceTree = "<group>";
+		};
+		F612AD3E1B8D6EA8002CF771 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F612AD3F1B8D6EA8002CF771 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F612AD531B8D6EA8002CF771 /* tiperatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F612AD561B8D6EA8002CF771 /* tiperatorTests.swift */,
+				F612AD541B8D6EA8002CF771 /* Supporting Files */,
+			);
+			path = tiperatorTests;
+			sourceTree = "<group>";
+		};
+		F612AD541B8D6EA8002CF771 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F612AD551B8D6EA8002CF771 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F612AD3A1B8D6EA7002CF771 /* tiperator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F612AD5A1B8D6EA8002CF771 /* Build configuration list for PBXNativeTarget "tiperator" */;
+			buildPhases = (
+				F612AD371B8D6EA7002CF771 /* Sources */,
+				F612AD381B8D6EA7002CF771 /* Frameworks */,
+				F612AD391B8D6EA7002CF771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tiperator;
+			productName = tiperator;
+			productReference = F612AD3B1B8D6EA8002CF771 /* tiperator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F612AD4F1B8D6EA8002CF771 /* tiperatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F612AD5D1B8D6EA8002CF771 /* Build configuration list for PBXNativeTarget "tiperatorTests" */;
+			buildPhases = (
+				F612AD4C1B8D6EA8002CF771 /* Sources */,
+				F612AD4D1B8D6EA8002CF771 /* Frameworks */,
+				F612AD4E1B8D6EA8002CF771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F612AD521B8D6EA8002CF771 /* PBXTargetDependency */,
+			);
+			name = tiperatorTests;
+			productName = tiperatorTests;
+			productReference = F612AD501B8D6EA8002CF771 /* tiperatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F612AD331B8D6EA7002CF771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Laci White";
+				TargetAttributes = {
+					F612AD3A1B8D6EA7002CF771 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F612AD4F1B8D6EA8002CF771 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F612AD3A1B8D6EA7002CF771;
+					};
+				};
+			};
+			buildConfigurationList = F612AD361B8D6EA7002CF771 /* Build configuration list for PBXProject "tiperator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F612AD321B8D6EA7002CF771;
+			productRefGroup = F612AD3C1B8D6EA8002CF771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F612AD3A1B8D6EA7002CF771 /* tiperator */,
+				F612AD4F1B8D6EA8002CF771 /* tiperatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F612AD391B8D6EA7002CF771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F612AD461B8D6EA8002CF771 /* Main.storyboard in Resources */,
+				F612AD4B1B8D6EA8002CF771 /* LaunchScreen.xib in Resources */,
+				F612AD481B8D6EA8002CF771 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F612AD4E1B8D6EA8002CF771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F612AD371B8D6EA7002CF771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F612AD431B8D6EA8002CF771 /* ViewController.swift in Sources */,
+				F612AD411B8D6EA8002CF771 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F612AD4C1B8D6EA8002CF771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F612AD571B8D6EA8002CF771 /* tiperatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F612AD521B8D6EA8002CF771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F612AD3A1B8D6EA7002CF771 /* tiperator */;
+			targetProxy = F612AD511B8D6EA8002CF771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F612AD441B8D6EA8002CF771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F612AD451B8D6EA8002CF771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F612AD491B8D6EA8002CF771 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F612AD4A1B8D6EA8002CF771 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F612AD581B8D6EA8002CF771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F612AD591B8D6EA8002CF771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F612AD5B1B8D6EA8002CF771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tiperator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F612AD5C1B8D6EA8002CF771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tiperator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F612AD5E1B8D6EA8002CF771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tiperatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiperator.app/tiperator";
+			};
+			name = Debug;
+		};
+		F612AD5F1B8D6EA8002CF771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tiperatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiperator.app/tiperator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F612AD361B8D6EA7002CF771 /* Build configuration list for PBXProject "tiperator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F612AD581B8D6EA8002CF771 /* Debug */,
+				F612AD591B8D6EA8002CF771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F612AD5A1B8D6EA8002CF771 /* Build configuration list for PBXNativeTarget "tiperator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F612AD5B1B8D6EA8002CF771 /* Debug */,
+				F612AD5C1B8D6EA8002CF771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F612AD5D1B8D6EA8002CF771 /* Build configuration list for PBXNativeTarget "tiperatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F612AD5E1B8D6EA8002CF771 /* Debug */,
+				F612AD5F1B8D6EA8002CF771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F612AD331B8D6EA7002CF771 /* Project object */;
+}
