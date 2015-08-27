@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:tiperator.xcodeproj">
+      location = "self:/Users/laciwhite/Desktop/tiperator/tiperator.xcodeproj">
    </FileRef>
 </Workspace>
